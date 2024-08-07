@@ -1,4 +1,4 @@
-import { Cube3D } from "lucide-react";
+import { Box } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -8,7 +8,7 @@ export const navItems = [
   {
     title: "3D Model Viewer",
     to: "/",
-    icon: <Cube3D className="h-4 w-4" />,
+    icon: <Box className="h-4 w-4" />,
     page: <Index />,
   },
 ];
